@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrabajoPracticoHTML</title>
+    <style>
+        table{
+            width: 12%;
+            text-align: left;
+            border: 1px double;
+        }
+        th, td {
+            border: 1px double;
+        }
+    </style>
+</head>
+<body>
+    <!-- Ejercicio 1 -->
+    <div>
+        <h1 id="Inicio">1. Estructura Basica del Documento HTML</h1>
+        <p>Este documento HTML tiene una estructura basica que incluye la declaracion de DOCTYPE, etiquetas de metadatos y un titulo.</p>
+        <br>
+    </div>
+    <!-- Ejercicio 2 -->
+    <div>
+        <h1>2. Encabezados y Propiedades del Texto</h1>
+        <p>
+            <h2><b>Esto es un texto en negrita, h2</b><h2>
+            <h3><u>Esto es un texto subrayado, h3</u></h3>
+            <h4><mark>Esto es un texto resaltado, h4</mark></h4>
+            <h5><i>Esto es un texto en cursiva, h5</i></h5>
+            <h6 style="font-style: italic;background-color: beige;">Esto es un texto con style, h6</h6>
+        </p>
+        <br>
+    </div>
+    <!-- Ejercicio 3 -->
+    <div>  
+        <h1>3. Divisiones y Agrupacion de Contenido</h1>
+        <div>
+            <h2 id="Sec1">Seccion 1</h2>
+            <p style="font-size-adjust: 0.77;">
+                Contenido de la primera seccion agrupada en un div.
+            </p>
+        </div>
+        <div>
+            <h2 id="Sec2">Seccion 2</h2>
+            <p style="font-size-adjust: 0.77;">
+                Contenido de la segunda seccion agrupada en un div.
+            </p>
+            <br>
+        </div>
+    </div>
+    <!-- Ejercicio 4 -->
+    <div>
+        <p>
+            <h1>4. Enlaces y Listas</h1>
+            Visita nuestro <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank"> video</a> explicativo para mas informacion
+            <br></br>
+            <div> 
+                Enlances internos 
+                <ul>
+                    <li><a href="#Inicio">Ir al inicio</a></li>
+                    <li><a href="#Sec1"> Seccion 1</a></li>
+                    <li><a href="#Sec2"> Seccion 2</a></li>
+                </ul>
+            </div>
+            <div> 
+                Lista desordenada
+                <ul>
+                    <li>Primer item de la lista desordenada</li>
+                    <li>Segundo item de la lista desordenada</li>
+                </ul>
+            </div>
+            <div> 
+                Lista ordenada
+                <ol>
+                    <li>Primer item de la lista ordenada</li>
+                    <li>Segundo item de la lista ordenada</li>
+                </ol>
+            </div>
+        </p>
+    </div><br>
+    <!-- Ejercicio 5 -->
+     <div>
+        <h1>5. Elementos multimedia</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Hinchada_de_Boca_desplegando_sus_telones.JPG/260px-Hinchada_de_Boca_desplegando_sus_telones.JPG" alt="La del mas grande">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0LwL7u9HW-o?si=lGkoQqYMbbLAPVuX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <audio src=https://download.blender.org/peach/trailer/trailer_1080p.ogg controls></audio>
+     </div>
+    <!-- Ejercicio 6 -->
+     <div> <h1>6. Tablas</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Columna 1</th>
+                    <th>Columna 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dato 1</td>
+                    <td>Dato 2</td>
+                </tr>
+                <tr>
+                    <td>Dato 3</td>
+                    <td>Dato 4</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+     </div>
+    <!-- Ejercicio 7 -->
+     <div>
+        <h1>7. Formularios</h1>
+        <label for="Nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <label for="Email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="Mensaje">Mensaje:</label>
+        <textarea name="Mensaje" id="Mensaje"></textarea>
+        <input type="submit" value="Enviar">
+     </div>
+</body>
+</html>
